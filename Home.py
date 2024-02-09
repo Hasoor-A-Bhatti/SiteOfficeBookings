@@ -9,8 +9,8 @@ if 'product_bookings' not in st.session_state:
 if 'all_bookings' not in st.session_state:
     st.session_state.all_bookings = {}
 
-if 'all_transfers' not in st.session_state:
-    st.session_state.all_transfers = {}
+# if 'all_transfers' not in st.session_state:
+#     st.session_state.all_transfers = {}
 
 # Page layout
 st.title("SITE OFFICE BOOKING PORTAL")
